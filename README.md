@@ -17,7 +17,7 @@
 This Python script provides a comprehensive automated penetration testing tool for performing various security assessments and tests on a target system or network. It leverages popular tools and techniques commonly used in penetration testing to identify vulnerabilities, exploit them, and assess overall security posture.
 
 # Features:
-
+```
 Network Scanning: Scan the target network to identify active hosts and their open ports.
 Service Enumeration: Enumerate services running on target systems to gather detailed information.
 Vulnerability Exploitation: Exploit known vulnerabilities in target systems to gain unauthorized access.
@@ -31,7 +31,9 @@ Wireless Network Testing: Conduct security assessments on wireless networks to i
 File Integrity Checking: Check the integrity of critical system files to detect unauthorized changes.
 Exploit Database Search: Search for known exploits in popular exploit databases for targeted attacks.
 Temporary Files Cleanup: Clean up temporary files generated during penetration testing activities.
-Usage
+```
+# Usage
+
 Ensure you have Python installed on your system.
 Install the required dependencies using pip install -r requirements.txt.
 Configure the config.ini file with appropriate settings for your environment.
