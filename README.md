@@ -1,6 +1,4 @@
-
-markdown
-Copy code
+```
 ██ ▄█▀▓█████▓██   ██▓  ██████ 
 ██▄█▒ ▓█   ▀ ▒██  ██▒▒██    ▒  
 ▓███▄░ ▒███    ▒██ ██░░ ▓██▄   
@@ -11,6 +9,7 @@ Copy code
 ░ ░░ ░    ░   ▒ ▒ ░░  ░  ░  ░  
 ░  ░      ░  ░░ ░           ░  
               ░ ░ 
+```
 # Automated Penetration Testing Tool
 
 This Python script provides a comprehensive automated penetration testing tool for performing various security assessments and tests on a target system or network. It leverages popular tools and techniques commonly used in penetration testing to identify vulnerabilities, exploit them, and assess overall security posture.
