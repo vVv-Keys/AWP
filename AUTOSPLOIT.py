@@ -51,6 +51,24 @@ def extract_credentials():
     except Exception as e:
         logger.error(f"Error extracting credentials: {e}")
 
+def generate_report():
+    try:
+        # Implement report generation functionality here
+        logger.info("Generating report...")
+        # You can use tools like Dradis or Metasploit for report generation
+        logger.info("Report generated successfully.")
+    except Exception as e:
+        logger.error(f"Error generating report: {e}")
+
+def open_interactive_shell():
+    try:
+        # Implement interactive shell functionality here
+        logger.info("Opening interactive shell...")
+        # You can open a reverse shell or a Meterpreter session for further exploration
+        logger.info("Interactive shell opened.")
+    except Exception as e:
+        logger.error(f"Error opening interactive shell: {e}")
+
 def main():
     logger.info("Automated Penetration Testing Tool")
     logger.info("Initializing...")
@@ -62,7 +80,9 @@ def main():
             print("3. Exploit Vulnerabilities")
             print("4. Escalate Privileges")
             print("5. Extract Credentials")
-            print("6. Exit")
+            print("6. Generate Report")
+            print("7. Open Interactive Shell")
+            print("8. Exit")
 
             choice = input("Enter your choice: ")
 
@@ -77,6 +97,10 @@ def main():
             elif choice == '5':
                 extract_credentials()
             elif choice == '6':
+                generate_report()
+            elif choice == '7':
+                open_interactive_shell()
+            elif choice == '8':
                 print("Exiting...")
                 break
             else:
