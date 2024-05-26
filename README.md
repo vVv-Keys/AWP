@@ -14,7 +14,7 @@
 
 This Python script provides a comprehensive automated penetration testing tool for performing various security assessments and tests on a target system or network. It leverages popular tools and techniques commonly used in penetration testing to identify vulnerabilities, exploit them, and assess overall security posture.
 
-# Features:
+# Features: ..
 
 ```
 Network Scanning: Scan the target network to identify active hosts and their open ports.
