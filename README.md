@@ -31,19 +31,38 @@ This Python script provides a comprehensive automated penetration testing tool f
 - **Exploit Database Search**: Search for known exploits in popular exploit databases for targeted attacks.
 - **Temporary Files Cleanup**: Clean up temporary files generated during penetration testing activities.
 ```
-#  Usage
-
-- Ensure you have Python installed on your system.
-- Install the required dependencies using pip install -r requirements.txt.
-- Configure the config.ini file with appropriate settings for your environment.
-- Run the script using python autosploit.py.
-- Follow the on-screen menu to choose the desired penetration testing actions.
-
 # Configuration
 
 ```The config.ini file contains configuration settings for the penetration testing tool, including target IP addresses, network ranges, tool paths, and logging preferences. Adjust these settings according to your specific testing requirements.```
 
-#  Logging
+### Example `config.ini`
+
+```
+ini
+[LOGGING]
+level = INFO
+format = %(asctime)s - %(levelname)s - %(message)s
+
+[NETWORK]
+target_range = 192.168.1.0/24
+target_ip = 192.168.1.1
+
+[EXPLOIT]
+exploit_command = msfconsole -r my_exploit.rc
+
+[PRIVILEGE_ESCALATION]
+script_path = C:\path\to\privilege_escalation_script.ps1
+
+[CREDENTIAL_EXTRACTION]
+tool_path = C:\path\to\credential_extraction_tool.exe
+
+[CLEANUP]
+temp_dir = /tmp
+```
+
+
+
+## Logging
 
 The script uses logging to record important events and errors during the penetration testing process. You can configure the logging level and format in the config.ini file to suit your preferences.
 
