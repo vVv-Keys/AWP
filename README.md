@@ -46,3 +46,30 @@ This Python script provides a comprehensive automated penetration testing tool f
 #  Logging
 
 The script uses logging to record important events and errors during the penetration testing process. You can configure the logging level and format in the config.ini file to suit your preferences.
+
+## Requirements
+
+The script requires the following Python packages, which can be installed using the provided requirements.txt file:
+
+```
+requests==2.25.1
+beautifulsoup4==4.9.3
+selenium==3.141.0
+retrying==1.3.3
+python-dotenv==0.15.0
+argparse==1.4.0
+logging==0.5.1.2
+configparser==5.0.1
+
+pip install req.txt
+```
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request with any enhancements, bug fixes, or suggestions.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Disclaimer
+This tool is intended for educational purposes and authorized security testing only. Unauthorized use of this tool to exploit vulnerabilities without permission is illegal and unethical.
+
