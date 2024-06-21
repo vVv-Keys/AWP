@@ -1,1 +1,8 @@
-nmap==7.91
+requests==2.25.1
+beautifulsoup4==4.9.3
+selenium==3.141.0
+retrying==1.3.3
+python-dotenv==0.15.0
+argparse==1.4.0
+logging==0.5.1.2
+configparser==5.0.1
