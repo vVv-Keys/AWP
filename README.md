@@ -72,4 +72,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Disclaimer
 This tool is intended for educational purposes and authorized security testing only. Unauthorized use of this tool to exploit vulnerabilities without permission is illegal and unethical.
-
